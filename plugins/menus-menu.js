@@ -34,7 +34,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `${tradutor.texto1[0]}
+    const str = `𝑺𝑯𝑨𝑫𝑶𝑾-𝑩𝑶𝑻
 
 ${tradutor.texto1[1]} ${taguser}
 
@@ -53,10 +53,8 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   
   ▢ _${usedPrefix}menuaudios_
   ▢ _${usedPrefix}menuanimes_
-  ▢ _${usedPrefix}labiblia_ (🔞)
   ▢ _${usedPrefix}lang_ ${tradutor.texto2}
   ▢ _${usedPrefix}langgroup_ ${tradutor.texto3}
-  ▢ _${usedPrefix}glx_ ${tradutor.texto4 /** Este menú permanecerá aquí por un corto tiempo, hasta que la gente sepa */}
 
  
   ${tradutor.texto1[11]}
@@ -137,8 +135,6 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}ruleta
   ▢ _${usedPrefix}suerte
   ▢ _${usedPrefix}wordfind_
-  ▢ _${usedPrefix}glx_ (RPG Mundo)
-
 
 
   ${tradutor.texto1[14]}
@@ -203,9 +199,6 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
  ▢ _${usedPrefix}stickerpack *<url>*_
  ▢ _${usedPrefix}wallpaper *<txt>*_ 
  ▢ _${usedPrefix}dapk2 *<url>*_
- ▢ _${usedPrefix}xnxxdl *<url>*_ (🔞)
- ▢ _${usedPrefix}xvideosdl *<url>*_ (🔞)
-
 
  ${tradutor.texto1[16]}
 
@@ -550,4 +543,4 @@ function clockString(ms) {
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
   return [h, m, s].map((v) => v.toString().padStart(2, 0)).join(':');
-}
+  }
