@@ -32,7 +32,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `${tradutor.texto1[0]}
+    const str = `❥┊⁽ ͢ᵛᵎᵖ𝑮𝑶𝑩𝑳𝑰𝑵 𝑺𝑳𝑨𝒀𝑬𝑹𖤍
 
 ${tradutor.texto1[1]} ${taguser}
 
@@ -206,8 +206,6 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ├❧ _${usedPrefix}stickerpack *<url>*_
   ├❧ _${usedPrefix}wallpaper *<txt>*_ 
   ├❧ _${usedPrefix}dapk2 *<url>*_
-  ├❧ _${usedPrefix}xnxxdl *<url>*_ (🔞)
-  ├❧ _${usedPrefix}xvideosdl *<url>*_ (🔞)
   ╰───── • ◆ • ─────╯
 
  ${tradutor.texto1[16]}
@@ -218,7 +216,6 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ├❧ _${usedPrefix}modapk *<txt>*_
   ├❧ _${usedPrefix}stickersearch *<txt>*_
   ├❧ _${usedPrefix}stickersearch2 *<txt>*_
-  ├❧ _${usedPrefix}xnxxsearch *<txt>*_
   ├❧ _${usedPrefix}animeinfo *<txt>*_
   ├❧ _${usedPrefix}google *<txt>*_
   ├❧ _${usedPrefix}letra *<txt>*_
